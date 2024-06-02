@@ -2,6 +2,10 @@ const express = require("express");
 const router  = express.Router();
 const msgSms  = require("../msgSms/twilio");
 
+router.get("/", (req, res) => {
+    res.send("hello word")
+})
+
 router.post('/enviar-pedido-whatsapp', async (req, res) => {
     const { name, message, home, address, cep, total, cart} = req.body;
 
