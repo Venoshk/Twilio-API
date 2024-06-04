@@ -11,7 +11,7 @@ Este projeto utiliza o Twilio para desenvolver uma plataforma de e-commerce e ge
  ## Tecnologias Utilizadas
  
 - **Twilio:** Serviço de comunicação para envio de SMS e outras notificações.
-- **Linguagem de Programação:** Especificar a linguagem utilizada (ex: JavaScript, Python, etc.).
+- **Linguagem de Programação:**  JavaScript, Nodejs.
 
 ## Lista de Tarefas
 
